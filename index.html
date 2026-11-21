@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catatan Kuliah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Catatan Kuliah</h1>
+    <p id="status">Data tersimpan otomatis di browser ini.</p>
+  </header>
+
+  <nav id="tabs" aria-label="Bagian"></nav>
+
+  <main>
+    <section id="summary" hidden></section>
+    <form id="form" autocomplete="off"></form>
+    <input id="search" type="search" placeholder="Cari di bagian ini">
+    <div id="list"></div>
+  </main>
+
+  <footer>
+    <button id="export" type="button">Ekspor cadangan (JSON)</button>
+    <label class="btn">Impor cadangan<input id="import" type="file" accept="application/json" hidden></label>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
