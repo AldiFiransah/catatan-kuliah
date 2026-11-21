@@ -6,7 +6,7 @@ Isinya: catatan, materi dosen, link materi, dan catatan pengeluaran. Data tersim
 
 ## Jalankan di web
 
-Buka: https://USERNAME.github.io/catatan-kuliah/ == https://AldiFiransah.github.io/catatan-kuliah/
+Buka: https://USERNAME.github.io/catatan-kuliah/
 
 ## Jalankan sebagai aplikasi di Arch Linux
 
